@@ -1,0 +1,48 @@
+<div class="form-wrapper">
+  <form class="form">
+    <h2 class="form__title">Sign in</h2>
+
+    <fieldset class="group form__input-group">
+      <div class="form__item">
+        <input 
+          type="text" 
+          id="login" 
+          name="login"
+          class="input form__input" 
+          minlength="3"
+          maxlength="50"
+          placeholder="login"
+          required
+        >
+        <label for="login" class="form__label">
+          Login
+        </label>
+      </div>
+
+      <div class="form__item">
+        <input 
+          type="password" 
+          id="password" 
+          name="password"
+          class="input form__input" 
+          minlength="6"
+          maxlength="10"
+          placeholder="password"
+          required
+        >
+        <label for="password" class="form__label">
+          Password
+        </label>
+      </div>
+    </fieldset>
+
+
+    <fieldset class="group form__btn-group">
+      <a href="./main.hbs" class="button form__button">Sign in</a>
+      <p class="form__text">
+        Don't have an account?
+        <a class="form__link" href="./signup.hbs">Sign up</a>
+      </p>
+    </fieldset>
+  </form>
+</div>

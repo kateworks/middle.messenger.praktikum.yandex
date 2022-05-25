@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+	transition: all 0.5s ease;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+	background-color: #e5e5e5;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  line-height: 1;
+}
+
+.group {
+  outline: none;
+  border: none;
+}
+
+.button {
+  display: block;
+	background: none;
+	box-shadow: none;
+	border: none;
+	outline: none;
+}
+
+.input {
+  display: block;
+  border: none;
+  outline: none;
+}
