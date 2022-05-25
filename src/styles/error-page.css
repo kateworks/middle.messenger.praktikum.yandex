@@ -1,0 +1,40 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+  background-color: #e5e5e5;
+}
+
+.info {
+  width: 100%;
+  max-width: 320px;
+  padding: 10px;
+}
+
+.info__title {
+  padding-bottom: 20px;
+  color: #1E1E1E;  
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+}
+
+.info__subtitle {
+  padding-bottom: 70px;
+  color: #1E1E1E;  
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;  
+}
+
+.info__link {
+  display: block;
+  text-decoration: none;
+  color: #3369F3;  
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}

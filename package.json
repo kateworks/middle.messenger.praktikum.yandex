@@ -2,10 +2,10 @@
   "name": "middle.messenger.praktikum.yandex",
   "version": "1.0.0",
   "description": "Simple messenger",
+  "source": "src/pages/index.hbs",
   "scripts": {
-    "build": "parcel build src/pages/index.hbs --public-url ./",
-    "dev": "parcel src/pages/index.hbs --port 3000",
-    "version": "parcel -V"
+    "build": "parcel build --no-cache --public-url ./",
+    "start": "parcel --no-cache --port 3000 --open"
   },
   "repository": {
     "type": "git",
