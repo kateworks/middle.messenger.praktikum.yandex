@@ -1,0 +1,61 @@
+{
+  "signin" : [
+    {
+      "id" : "login",
+      "name" : "login",
+      "type" : "text",
+      "label" : "Login"
+    },
+    {
+      "id" : "password",
+      "name" : "password",
+      "type" : "password",
+      "label" : "Password"
+    }
+  ],
+
+  "signup" : [
+    {
+      "id" : "email",
+      "name" : "email",
+      "type" : "email",
+      "label" : "Email"
+    },
+    {
+      "id" : "login",
+      "name" : "login",
+      "type" : "text",
+      "label" : "Login"
+    },
+    {
+      "id" : "first_name",
+      "name" : "first_name",
+      "type" : "text",
+      "label" : "Name"
+    },
+    {
+      "id" : "second_name",
+      "name" : "second_name",
+      "type" : "text",
+      "label" : "Surname"
+    },
+    {
+      "id" : "phone",
+      "name" : "phone",
+      "type" : "tel",
+      "label" : "Phone number"
+    },
+    {
+      "id" : "password",
+      "name" : "password",
+      "type" : "password",
+      "label" : "Password"
+    },
+    {
+      "id" : "password2",
+      "name" : "password2",
+      "type" : "password",
+      "label" : "Confirm password"
+    }
+  ]
+}

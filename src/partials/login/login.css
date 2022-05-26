@@ -1,5 +1,10 @@
 .login {
+  padding-top: 50px;
   margin-top: auto;
+
+  @media screen and (max-width: 350px) {
+    padding-top: 30px;
+  }
   
   &__button {
     width: 280px;

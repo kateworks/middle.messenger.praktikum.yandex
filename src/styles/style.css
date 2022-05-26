@@ -22,13 +22,8 @@ body {
   align-items: center;
 
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   background-color: var(--color-light-gray);
-}
-
-.group {
-  outline: none;
-  border: none;
 }
 
 .button {
@@ -37,10 +32,4 @@ body {
 	box-shadow: none;
 	border: none;
 	outline: none;
-}
-
-.input {
-  display: block;
-  border: none;
-  outline: none;
 }

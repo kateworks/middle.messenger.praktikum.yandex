@@ -1,7 +1,7 @@
 .wrapper {
   width: 100%;
   max-width: 340px;
-  height: calc(min(100vh, 460px));
+  min-height: calc(min(100vh, 460px));
   padding: 50px 30px 30px;
 
   background-color: var(--color-white);
@@ -10,5 +10,9 @@
 
   @media screen and (max-width: 350px) {
     padding: 30px 10px 10px;
+  }
+
+  &_login {
+    height: 1px;
   }
 }
