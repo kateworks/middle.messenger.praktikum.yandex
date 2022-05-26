@@ -1,11 +1,14 @@
 ---
 title: Register page
 css:
-  - style.css
-  - form.css
+  - ../styles/style.css
+  - ../styles/wrapper.css
+  - ../partials/form/form.css
 ---
 {{!< base}}
 
-<main>
-  {{> form}}
+<main class="content">
+  <div class="wrapper">
+    {{> form/form}}
+  </div>
 </main>

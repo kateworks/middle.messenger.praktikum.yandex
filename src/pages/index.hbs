@@ -1,18 +1,25 @@
 ---
 title: Simple messenger
 css:
-  - fonts.css
-  - style.css
+  - ../styles/style.css
+  - ../styles/wrapper.css
+  - ../styles/cover.css
+  - ../partials/login/login.css
 ---
 
 {{!< base}}
 
-<main>
-  <h1>Your Messenger</h1>
-  <a href="./signin.hbs">Login</a>
-  <br />
-  <a href="./page500.hbs">Page 500</a>
-  <br />
-  <a href="./page404.hbs">Page 404</a>
-  <br />
+<main class="content">
+  <section class="wrapper cover">
+    <img 
+      class="cover__image" 
+      src="/static/images/owl.svg" 
+      alt="Owl image"
+    >
+    <h1 class="cover__title">
+      Owl Messenger
+    </h1>
+
+    {{> login/login }}
+  </section>
 </main>

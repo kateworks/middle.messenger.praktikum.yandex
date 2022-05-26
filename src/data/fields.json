@@ -1,0 +1,34 @@
+{
+  "profile": [
+    { 
+      "name"  : "first_name",
+      "label" : "Имя",
+      "value" : "Иван"
+    },
+    { 
+      "name"  : "second_name",
+      "label" : "Фамилия",
+      "value" : "Иванов"
+    },
+    { 
+      "name"  : "display_name",
+      "label" : "Имя в чате",
+      "value" : "Иван"
+    },
+    { 
+      "name"  : "login",
+      "label" : "Логин",
+      "value" : "ivanov"
+    },
+    { 
+      "name"  : "email",
+      "label" : "Почта",
+      "value" : "ivanov@ya.ru"
+    },
+    { 
+      "name"  : "phone",
+      "label" : "Телефон",
+      "value" : "+7 (900) 000 0000"
+    }
+  ]
+}
