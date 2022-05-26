@@ -2,10 +2,10 @@
 title: Error page
 css:
   - ../styles/style.css
-  - ../styles/error-page.css
+  - ../partials/error-page/error-page.css
 ---
 {{!< base}}
 
 <main class="content">
-  {{> nopage page=pages.code404}}
+  {{> error-page/error-page page=pages.code404}}
 </main>
