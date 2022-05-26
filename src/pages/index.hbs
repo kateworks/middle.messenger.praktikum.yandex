@@ -3,23 +3,12 @@ title: Simple messenger
 css:
   - ../styles/style.css
   - ../styles/wrapper.css
-  - ../styles/cover.css
+  - ../partials/cover/cover.css
   - ../partials/login/login.css
 ---
 
 {{!< base}}
 
 <main class="content">
-  <section class="wrapper cover">
-    <img 
-      class="cover__image" 
-      src="/static/images/owl.svg" 
-      alt="Owl image"
-    >
-    <h1 class="cover__title">
-      Owl Messenger
-    </h1>
-
-    {{> login/login }}
-  </section>
+  {{> cover/cover }}
 </main>
