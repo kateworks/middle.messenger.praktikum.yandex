@@ -26,6 +26,12 @@ body {
   background-color: var(--color-light-gray);
 }
 
+.main {
+  justify-content: start;
+  align-items: stretch;
+  height: 100vh;
+}
+
 .button {
   display: block;
 	background: none;

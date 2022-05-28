@@ -1,14 +1,18 @@
 <ul class="chats">
-  {{#each chats}}
+  {{#each data}}
     <li class="chat">
-      <img class="chat__image" src="https://picsum.photos/seed/picsum/200/300" alt="User avatar">
+      <img class="chat__image" src="{{avatar}}" alt="User avatar">
+
       <div class="chat__name-group">
-        <p class="chat__name">User</p>
-        <p class="chat__message">Hello</p>
+        <p class="chat__name">{{name}}</p>
+        <p class="chat__message">{{getMessage name list}}</p>
       </div>
+
       <div class="chat__info-group">
-        <p class="chat__time">12:12</p>
-        <p class="chat__unread">3</p>
+        <p class="chat__time">{{getTime list}}</p>
+        {{#if (hasUnreadMessages list)}}
+          <p class="chat__unread">{{countUnreadMessages list}}</p>
+        {{/if}}
       </div>
     </li>
   {{/each}}  

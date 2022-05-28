@@ -2,14 +2,11 @@
 title: Main page
 css:
   - ../styles/style.css
+  - ../partials/chats-list/chats-list.css
+  - ../partials/chats/chats.css
 ---
 {{!< base}}
 
-<main class="content">
-  <h1>Main window</h1>
-  <section class="main">
-    <div class="chatslist">
-
-    </div>
-  </section>
+<main class="content main">
+  {{> chats-list/chats-list}}
 </main>
