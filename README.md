@@ -1,8 +1,17 @@
 # Owl Messenger
 
+
+Pull-request:
+
+https://github.com/kateworks/middle.messenger.praktikum.yandex/pull/1
+
+
+<img src="static/images/owl.svg" alt="Owl image" width="100">
+
+
 ## Описание
 
-Owl Messenger - это простейший веб-мессенджер.
+Owl Messenger - это простейшая программа для обмена сообщениями.
 
 Проектная работа, выполненная при обучении 
 на [Яндекс.Практикум](https://praktikum.yandex.ru/)
