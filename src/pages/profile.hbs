@@ -2,21 +2,15 @@
 title: User profile
 css:
   - ../styles/style.css
+  - ../styles/wrapper.css
+  - ../partials/profile-view/profile-view.css
   - ../partials/userinfo/userinfo.css
 ---
 
 {{!< base}}
 
 <main class="content">
-  <section class="profile">
-    <div class="profile__avatar-group">
-      <h2></h2>
-    </div>
-
-    {{> userinfo/userinfo fields=fields.profile}}
-
-    <div class="profile__btn-group">
-      <a class="" href="./signin.hbs">Exit</a>
-    </div>
+  <section class="wrapper wrapper_profile">
+    {{> profile-view/profile-view fields=forms.profile user=forms.user}}
   </section>
 </main>

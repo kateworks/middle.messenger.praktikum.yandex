@@ -15,4 +15,8 @@
   &_login {
     height: 1px;
   }
+
+  &_profile {
+    max-width: 500px;
+  }
 }
