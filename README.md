@@ -18,6 +18,11 @@ Owl Messenger - это простейшая программа для обмен
 по специальности [Middle frontend-разработчик](https://practicum.yandex.ru/middle-frontend/).
 
 
+## Страница проекта
+
+https://kateworks-middle-messenger.netlify.app/
+
+
 ## Технологии
 
 Верстка сайта выполнена с использованием HTML5, CSS3, 
