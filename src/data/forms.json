@@ -139,5 +139,26 @@
       "type" : "tel",
       "label" : "Phone number"
     }
+  ],
+
+  "edit_password" : [
+    {
+      "id" : "oldPassword",
+      "name" : "oldPassword",
+      "type" : "password",
+      "label" : "Old password"
+    },
+    {
+      "id" : "newPassword",
+      "name" : "newPassword",
+      "type" : "password",
+      "label" : "New password"
+    },
+    {
+      "id" : "confirmPassword",
+      "name" : "confirmPassword",
+      "type" : "password",
+      "label" : "Confirm password"
+    }
   ]
 }
