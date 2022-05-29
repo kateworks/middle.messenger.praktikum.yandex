@@ -16,6 +16,10 @@
     object-fit: contain;
     object-position: center;
     border-radius: 50%;
+
+    &_edit {
+      margin: 0 auto;
+    }
   }
 
   &__title {
@@ -50,9 +54,32 @@
       cursor: pointer;
       color: var(--color-dark);
     }
+
+    &_color_red {
+      color: var(--color-red);
+    }
+
+    &_pos_center {
+      text-align: center;
+      height: auto;
+      padding: 0;
+    }
+  }
+}
+
+.profile-form {
+  width: 100%;
+
+  &__inputs {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 12px;
+    width: 100%;
+    outline: none;
+    border: none;  
   }
 
-  &__link_color_red {
-    color: var(--color-red);
+  &__button {
+    margin-top: 40px;
   }
 }

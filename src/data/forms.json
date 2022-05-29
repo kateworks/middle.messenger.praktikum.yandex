@@ -106,5 +106,38 @@
     "email"  : "sokrat@ya.ru",
     "phone"  : "+0 (000) 000 0000",
     "avatar" : "https://picsum.photos/id/1037/300/300" 
-  }
+  },
+
+  "edit_profile" : [
+    {
+      "id" : "email",
+      "name" : "email",
+      "type" : "email",
+      "label" : "Email"
+    },
+    {
+      "id" : "login",
+      "name" : "login",
+      "type" : "text",
+      "label" : "Login"
+    },
+    {
+      "id" : "first_name",
+      "name" : "first_name",
+      "type" : "text",
+      "label" : "Name"
+    },
+    {
+      "id" : "second_name",
+      "name" : "second_name",
+      "type" : "text",
+      "label" : "Surname"
+    },
+    {
+      "id" : "phone",
+      "name" : "phone",
+      "type" : "tel",
+      "label" : "Phone number"
+    }
+  ]
 }
