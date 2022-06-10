@@ -1,0 +1,16 @@
+<form class="form">
+  <h2 class="form__title">{{heading}}</h2>
+
+  <fieldset class="form__input-group">
+    {{#each form}}
+      {{> form-item/form-item value=""}}
+    {{/each}}    
+  </fieldset>
+
+  {{#if signin}}
+    {{> login/login aref="../pages/main.hbs" }}
+  {{else}}
+    {{> login/register }}
+  {{/if}}  
+</form>
+

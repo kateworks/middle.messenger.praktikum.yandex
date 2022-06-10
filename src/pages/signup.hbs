@@ -1,0 +1,16 @@
+---
+title: Sign up page
+css:
+  - ../styles/style.css
+  - ../styles/wrapper.css
+  - ../partials/form/form.css
+  - ../partials/login/login.css
+  - ../partials/form-item/form-item.css
+---
+{{!< base}}
+
+<main class="content">
+  <div class="wrapper">
+    {{> form/form heading="Sign up" form=forms.signup signin=false}}
+  </div>
+</main>

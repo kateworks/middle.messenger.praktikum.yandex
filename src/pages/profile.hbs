@@ -1,0 +1,16 @@
+---
+title: User profile
+css:
+  - ../styles/style.css
+  - ../styles/wrapper.css
+  - ../partials/profile/profile.css
+  - ../partials/userinfo/userinfo.css
+---
+
+{{!< base}}
+
+<main class="content">
+  <section class="wrapper wrapper_profile">
+    {{> profile/profile-view fields=forms.profile user=forms.user}}
+  </section>
+</main>

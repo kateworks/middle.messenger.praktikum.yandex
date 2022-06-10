@@ -1,0 +1,8 @@
+<ul class="userinfo">
+  {{#each fields}}
+    <li class="userinfo__item">
+      <p class="userinfo__field">{{label}}</p>
+      <p class="userinfo__data">{{lookup ../user [name]}}</p>
+    </li>
+  {{/each}}  
+</ul>

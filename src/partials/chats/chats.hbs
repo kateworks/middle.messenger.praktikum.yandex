@@ -1,0 +1,19 @@
+<ul class="chats">
+  {{#each data}}
+    <li class="chat">
+      <img class="chat__image" src="{{avatar}}" alt="User avatar">
+
+      <div class="chat__name-group">
+        <p class="chat__name">{{name}}</p>
+        <p class="chat__message">{{getMessage name list}}</p>
+      </div>
+
+      <div class="chat__info-group">
+        <time class="chat__time">{{getTime list}}</time>
+        {{#if (hasUnreadMessages list)}}
+          <p class="chat__unread">{{countUnreadMessages list}}</p>
+        {{/if}}
+      </div>
+    </li>
+  {{/each}}  
+</ul>

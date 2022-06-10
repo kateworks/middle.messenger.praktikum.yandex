@@ -1,0 +1,21 @@
+.cover {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  align-items: center;
+
+  &__image {
+    display: block;
+    object-fit: contain;
+    object-position: center;
+    width: 70%;
+    padding-bottom: 40px;
+  }
+
+  &__title {
+    color: var(--color-dark);  
+    font-weight: 900;
+    font-size: 28px;
+    text-align: center;
+  }
+}

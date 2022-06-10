@@ -1,0 +1,164 @@
+{
+  "signin" : [
+    {
+      "id" : "login",
+      "name" : "login",
+      "type" : "text",
+      "label" : "Login"
+    },
+    {
+      "id" : "password",
+      "name" : "password",
+      "type" : "password",
+      "label" : "Password"
+    }
+  ],
+
+  "signup" : [
+    {
+      "id" : "email",
+      "name" : "email",
+      "type" : "email",
+      "label" : "Email"
+    },
+    {
+      "id" : "login",
+      "name" : "login",
+      "type" : "text",
+      "label" : "Login"
+    },
+    {
+      "id" : "first_name",
+      "name" : "first_name",
+      "type" : "text",
+      "label" : "Name"
+    },
+    {
+      "id" : "second_name",
+      "name" : "second_name",
+      "type" : "text",
+      "label" : "Surname"
+    },
+    {
+      "id" : "phone",
+      "name" : "phone",
+      "type" : "tel",
+      "label" : "Phone number"
+    },
+    {
+      "id" : "password",
+      "name" : "password",
+      "type" : "password",
+      "label" : "Password"
+    },
+    {
+      "id" : "password2",
+      "name" : "password2",
+      "type" : "password",
+      "label" : "Confirm password"
+    }
+  ],
+
+  "profile": [
+    { 
+      "id"    : "first_name",
+      "name"  : "first_name",
+      "type"  : "text",
+      "label" : "Имя"
+    },
+    { 
+      "id"    : "second_name",
+      "name"  : "second_name",
+      "type"  : "text",
+      "label" : "Фамилия"
+    },
+    { 
+      "id"    : "display_name",
+      "name"  : "display_name",
+      "type"  : "text",
+      "label" : "Имя в чате"
+    },
+    { 
+      "id"    : "login",
+      "name"  : "login",
+      "type"  : "text",
+      "label" : "Логин"
+    },
+    { 
+      "id"    : "email",
+      "name"  : "email",
+      "type"  : "email",
+      "label" : "Почта"
+    },
+    { 
+      "id"    : "phone",
+      "name"  : "phone",
+      "type"  : "tel",
+      "label" : "Телефон"
+    }
+  ],
+
+  "user" : {
+    "first_name" : "Сократ",
+    "second_name"  : "---",
+    "display_name" : "Сократ",
+    "login"  : "sokrat",
+    "email"  : "sokrat@ya.ru",
+    "phone"  : "+0 (000) 000 0000",
+    "avatar" : "https://picsum.photos/id/1037/300/300" 
+  },
+
+  "edit_profile" : [
+    {
+      "id" : "email",
+      "name" : "email",
+      "type" : "email",
+      "label" : "Email"
+    },
+    {
+      "id" : "login",
+      "name" : "login",
+      "type" : "text",
+      "label" : "Login"
+    },
+    {
+      "id" : "first_name",
+      "name" : "first_name",
+      "type" : "text",
+      "label" : "Name"
+    },
+    {
+      "id" : "second_name",
+      "name" : "second_name",
+      "type" : "text",
+      "label" : "Surname"
+    },
+    {
+      "id" : "phone",
+      "name" : "phone",
+      "type" : "tel",
+      "label" : "Phone number"
+    }
+  ],
+
+  "edit_password" : [
+    {
+      "id" : "oldPassword",
+      "name" : "oldPassword",
+      "type" : "password",
+      "label" : "Old password"
+    },
+    {
+      "id" : "newPassword",
+      "name" : "newPassword",
+      "type" : "password",
+      "label" : "New password"
+    },
+    {
+      "id" : "confirmPassword",
+      "name" : "confirmPassword",
+      "type" : "password",
+      "label" : "Confirm password"
+    }
+  ]
+}

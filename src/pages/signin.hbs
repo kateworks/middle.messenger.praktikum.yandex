@@ -1,0 +1,16 @@
+---
+title: Sign in page
+css:
+  - ../styles/style.css
+  - ../styles/wrapper.css
+  - ../partials/form/form.css
+  - ../partials/login/login.css
+  - ../partials/form-item/form-item.css
+---
+{{!< base}}
+
+<main class="content">
+  <div class="wrapper wrapper_login">
+    {{> form/form heading="Sign in" form=forms.signin signin=true}}
+  </div>
+</main>

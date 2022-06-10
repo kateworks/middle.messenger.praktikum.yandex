@@ -1,0 +1,14 @@
+{
+  "code500" : {
+    "title": "500",
+    "subtitle": "Something went wrong",
+    "alink": "Back",
+    "href": "./index.hbs"
+  },
+  "code404" : {
+    "title": "404",
+    "subtitle": "This page does not exist",
+    "alink": "Back",
+    "href": "./index.hbs"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "middle.messenger.praktikum.yandex",
+  "version": "1.0.0",
+  "description": "Simple messenger",
+  "source": "src/pages/index.hbs",
+  "scripts": {
+    "build": "parcel build --no-cache --public-url ./",
+    "dev": "parcel --no-cache --port 3000 --open",
+    "start": "npm run build && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kateworks/middle.messenger.praktikum.yandex.git"
+  },
+  "author": "Ekaterina Pozhidaeva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kateworks/middle.messenger.praktikum.yandex/issues"
+  },
+  "homepage": "https://github.com/kateworks/middle.messenger.praktikum.yandex#readme",
+  "devDependencies": {
+    "@anikin/parcel-transformer-handlebars": "1.0.9",
+    "parcel": "2.5.0",
+    "postcss-nested": "5.0.6"
+  },
+  "dependencies": {
+    "express": "4.18.1"
+  },
+  "engines": {
+    "node": ">= 12.0.0"
+  }  
+}
