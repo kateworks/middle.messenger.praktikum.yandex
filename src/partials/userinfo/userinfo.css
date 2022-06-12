@@ -17,7 +17,7 @@
   }
 
   &__field {
-    color: var(--color-dark); 
+    color: var(--color-dark);
     font-size: 14px;
     font-weight: 500;
   }
@@ -29,4 +29,3 @@
     text-align: right;
   }
 }
-

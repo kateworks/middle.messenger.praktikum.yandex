@@ -13,7 +13,7 @@
   }
 
   &__title {
-    color: var(--color-dark);  
+    color: var(--color-dark);
     font-weight: 900;
     font-size: 28px;
     text-align: center;
