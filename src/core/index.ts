@@ -1,7 +1,7 @@
-import { Block } from './Block';
+import EventBus from './EventBus';
+import Block from './Block';
 
-const b = new Block();
-
-b.setNum(111);
-
-console.log(b.getNum());
+export {
+  EventBus,
+  Block,
+};

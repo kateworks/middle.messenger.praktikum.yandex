@@ -1,4 +1,4 @@
-export class Block {
+export default class Block {
   private num = 0;
 
   public setNum(value: number) {
