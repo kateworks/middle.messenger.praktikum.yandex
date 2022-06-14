@@ -1,7 +1,7 @@
 {
   "name": "middle.messenger.praktikum.yandex",
   "version": "1.0.0",
-  "description": "Simple messenger",
+  "description": "Owl Messenger",
   "source": "src/index.html",
   "scripts": {
     "build": "parcel build --no-cache --public-url ./",
@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/kateworks/middle.messenger.praktikum.yandex#readme",
   "devDependencies": {
-    "@anikin/parcel-transformer-handlebars": "1.0.9",
     "parcel": "2.5.0",
     "postcss-nested": "5.0.6",
     "typescript": "4.7.3"
@@ -31,5 +30,9 @@
   },
   "engines": {
     "node": ">= 12.0.0"
-  }
+  },
+  "alias": {
+    "nanoid": "./node_modules/nanoid/index.browser",
+    "handlebars": "./node_modules/handlebars/dist/handlebars"
+  }  
 }

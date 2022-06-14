@@ -1,5 +1,4 @@
 import { Block } from '../../core';
-
 import './Button.css';
 
 interface ButtonProps {
