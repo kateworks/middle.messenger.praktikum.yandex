@@ -1,0 +1,17 @@
+.button {
+  display: block;
+  width: 280px;
+  height: 38px;
+  background: none;
+  background-color: var(--color-blue);
+  border: none;
+  border-radius: 8px;
+  box-shadow: none;
+  outline: none;
+  color: var(--color-white);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 38px;
+  text-align: center;
+  text-decoration: none;
+}
