@@ -16,16 +16,6 @@ body {
   line-height: 1;
 }
 
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 100%;
-  min-height: 100vh;
-  background-color: var(--color-light-gray);
-}
-
 .main {
   justify-content: start;
   align-items: stretch;

@@ -18,6 +18,8 @@ export default class Block<P = any> {
 
   public id = nanoid(6);
 
+  public getStaticName() { return 'Block'; };
+
   private readonly _meta: BlockMeta;
 
   protected _element: Nullable<HTMLElement> = null;
@@ -61,9 +63,7 @@ export default class Block<P = any> {
   }
 
   protected getStateFromProps(props: any): void {
-    console.log('=============== getStateFromProps: ');
     this.state = { ...props };
-    console.log(this.state);
   }
 
   init() {
@@ -117,7 +117,7 @@ export default class Block<P = any> {
     const fragment = this._compile();
 
     this._removeEvents();
-    const newElement = fragment.firstElementChild ? fragment.firstElementChild : new HTMLElement();
+    const newElement = fragment.firstElementChild!;
 
     this._element?.replaceWith(newElement);
 
@@ -138,7 +138,7 @@ export default class Block<P = any> {
       }, 100);
     }
 
-    return this.element || new HTMLElement();
+    return this.element!;
   }
 
   _makePropsProxy(props: any): any {

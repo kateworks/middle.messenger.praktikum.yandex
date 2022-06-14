@@ -17,6 +17,8 @@ export default class Button extends Block {
     });
   }
 
+  public getStaticName() { return 'Button'; };
+
   protected render(): string {
     // language=hbs
     return `
